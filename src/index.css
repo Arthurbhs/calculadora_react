@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'RobotoSla';
+  src: url('./fonts/RobotoSlab-Thin.ttf');
+}
+*{ 
+  font-family: 'RobotoSla', monospace;
+}
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: aliceblue;
+  background: linear-gradient(to right, rgb(212, 0, 255), rgb(16, 121, 124));
+}
