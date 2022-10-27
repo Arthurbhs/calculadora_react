@@ -11,3 +11,20 @@
     border-bottom: var(--border-button);
     outline: none;
 }
+.button:active{
+    background-color: rgb(201, 143, 223);
+}
+
+.button.double{
+    grid-column: span 2;
+}
+.button.triple{
+    grid-column: span 3;
+}
+.button.operation {
+    background-color: rgb(106, 49, 160);
+    color: rgb(196, 255, 242);
+}
+.button.operation:active{
+    background-color: blueviolet;
+}

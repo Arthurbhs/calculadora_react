@@ -3,7 +3,7 @@
     width: 235px;
     border-radius: 5px;
     overflow: hidden;
-    background-color: brown;
+    background-color: rgb(87, 39, 39);
 
     display: grid;
     grid-template-columns: repeat(4, 25%);
